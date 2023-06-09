@@ -1,8 +1,7 @@
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
-import LoginScreen from './screens/Login';
-import RegisterScreen from './screens/Register';
-import ChatScreen from './screens/Chat';
+import {LoginScreen, RegisterScreen} from './auth';
+import ChatScreen from './chat/screens/Chat';
 
 const Stack = createStackNavigator();
 
