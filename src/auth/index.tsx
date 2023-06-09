@@ -1,3 +1,3 @@
-import {Login as LoginScreen, Register as RegisterScreen} from './screens';
+import {LoginScreen, RegisterScreen} from './screens';
 
 export {LoginScreen, RegisterScreen};
