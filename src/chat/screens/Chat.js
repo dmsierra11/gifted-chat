@@ -1,7 +1,7 @@
 import React, {useCallback, useState, useLayoutEffect} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import {Avatar} from 'react-native-elements';
-import {auth, db} from '../firebase';
+import {auth, db} from '../../../firebase';
 import {signOut} from 'firebase/auth';
 import {
   collection,

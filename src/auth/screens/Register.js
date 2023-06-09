@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {View, StyleSheet} from 'react-native';
 import {Input, Button} from 'react-native-elements';
-import {auth} from '../firebase';
+import {auth} from '../../../firebase';
 import {createUserWithEmailAndPassword, updateProfile} from 'firebase/auth';
 
 const Register = () => {
