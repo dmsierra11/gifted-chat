@@ -1,3 +1,3 @@
-import {ChatScreen} from './screens';
+import {ChatScreen, ContactListScreen} from './screens';
 
-export {ChatScreen};
+export {ChatScreen, ContactListScreen};

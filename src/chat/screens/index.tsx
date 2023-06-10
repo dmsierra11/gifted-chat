@@ -1,3 +1,4 @@
 import ChatScreen from './Chat';
+import ContactListScreen from './ContactList';
 
-export {ChatScreen};
+export {ChatScreen, ContactListScreen};
