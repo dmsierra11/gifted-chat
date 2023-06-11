@@ -13,3 +13,7 @@ export type ContactWithId = {
 export type ContactListProps = {
   data: ContactWithId[];
 };
+
+export type ContactListItemProps = {
+  item: ContactWithId;
+};
