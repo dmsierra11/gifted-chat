@@ -9,10 +9,9 @@ import {
   Avatar,
   Spacer,
 } from 'native-base';
-import useContactList from '../hooks/useContactList';
+import {ContactListProps} from '../../types';
 
-export default function App() {
-  const data = useContactList();
+export default function ContactList({data}: ContactListProps) {
   return (
     <Box>
       <Heading fontSize="xl" p="4" pb="3">
