@@ -18,7 +18,7 @@ const Login = ({navigation}) => {
   const signin = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(userCredential => {
-        navigation.navigate('Chat');
+        navigation.navigate('ContactList');
       })
       .catch(error => {
         const errorCode = error.code;
